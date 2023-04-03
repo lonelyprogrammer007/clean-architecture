@@ -11,6 +11,9 @@
             <option value="$PROJECT_DIR$/applications/app-service" />
             <option value="$PROJECT_DIR$/domain/model" />
             <option value="$PROJECT_DIR$/domain/usecase" />
+            <option value="$PROJECT_DIR$/infrastructure/driven-adapters/mongo-repository" />
+            <option value="$PROJECT_DIR$/infrastructure/driven-adapters/rest-condumer" />
+            <option value="$PROJECT_DIR$/infrastructure/entry-points/reactive-web" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -11,22 +11,22 @@ public class HeroUseCase {
 
     final HeroGateway heroGateway;
 
-    public List<Hero> listHeroes() {
+    public List<Hero> getHeroes() {
         return heroGateway.getHeroes();
     }
-    public Hero obtainHero(int id) {
+    public Hero getHero(int id) {
         return heroGateway.getHero(id);
     }
-    public Hero createHero(Hero hero) {
+    public Hero addHero(Hero hero) {
         return heroGateway.addHero(hero);
     }
-    public Hero removeHero(int id) {
+    public Hero deleteHero(int id) {
         return heroGateway.deleteHero(id);
     }
-    public Hero refreshHero(Hero hero) {
+    public Hero updateHero(Hero hero) {
         return heroGateway.updateHero(hero);
     }
-    public List<Hero> listHeroes(String term) {
+    public List<Hero> searchHeroes(String term) {
         return heroGateway.searchHeroes(term);
     }
 }
